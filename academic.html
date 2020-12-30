@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        .icon-color {
+            color: orange;
+        }
+    </style>
+    <title>shrewsbury</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/bkk_prep_logo_on_dark@2x.png" width="70%">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.html">Our School</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admission.html">Admission</a>
+                </li>
+                <li class="nav-item  active">
+                    <a class="nav-link" href="academic.html">Academic<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="eventandnews.html">Events & News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/aca1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/aca2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/aca3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/aca4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/aca5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/aca6.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-mt-1">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="curriculum-tab" data-toggle="tab" href="#curriculum" role="tab"
+                            aria-controls="curriculum" aria-selected="true">Curriculum</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="subjects-tab" data-toggle="tab" href="#subjects" role="tab"
+                            aria-controls="subjects" aria-selected="false">Subjects</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="assessment-tab" data-toggle="tab" href="#assessment" role="tab"
+                            aria-controls="assessment" aria-selected="false">Assessment</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="examresults-tab" data-toggle="tab" href="#examresults" role="tab"
+                            aria-controls="examresults" aria-selected="false">Exam Results</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="support-tab" data-toggle="tab" href="#support" role="tab"
+                            aria-controls="support" aria-selected="false">Support</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="technology-tab" data-toggle="tab" href="#technology" role="tab"
+                            aria-controls="technology" aria-selected="false">Technology</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="library-tab" data-toggle="tab" href="#library" role="tab"
+                            aria-controls="library" aria-selected="false">Library</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="curriculum" role="tabpanel" aria-labelledby="curriculum-tab">
+                    <div class="contrainer">
+                        <div class="row">
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <img src="images/crowd.png">
+                                <h1>CURRICULUM</h1>
+                            </div>
+                            <div class="col-md-12" style="padding:30px 150px 30px">
+                                <h5>Shrewsbury's curriculum is based around the English National Curriculum, adapted to
+                                    meet the needs of our students and international context.</h5>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>CURRICULUM KEY STAGES</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:10px 150px 30px">
+                                <p>The English National curriculum provides a structured learning journey from the age
+                                    of 3 to 18 years. The Early Years Foundation stage (age 3 years) is followed by a
+                                    sequence of 5 "Key Stages", culminating in the advanced A-level programme (Ages
+                                    16-18). By the time students graduate from Shrewsbury Bangkok, they are equipped
+                                    with the skills, specialist knowledge and qualifications they need to earn places
+                                    (and to thrive) at leading universities and colleges around the world.</p>
+                                <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                    <h5>KEY STAGES BY AGE</h5>
+                                    <img src="images/key1.png" width="100%">
+                                </div>
+                                <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                    <h5>CURRICULUM GUIDESE</h5>
+                                </div>
+                                <div class="col-md-12 icon-color" style="padding:10px 150px 30px">
+                                    <a
+                                        href="https://resources.finalsite.net/images/v1592192332/shrewsburyacth/flyjn2ljbnstil2rskmz/SHREYCurriculumGuide2020-21eBook.pdf">EARLY
+                                        YEARS GUIDE</a>
+                                </div>
+                                <div class="col-md-12 icon-color" style="padding:10px 150px 30px">
+                                    <a
+                                        href="https://resources.finalsite.net/images/v1599706213/shrewsburyacth/uaw1ls6ep6g6rwhn05lb/KeyStage1CurriculumGuide2020.pdf">KEY
+                                        STAGE 1</a>
+                                </div>
+                                <div class="col-md-12 icon-color" style="padding:10px 150px 30px">
+                                    <a
+                                        href="https://resources.finalsite.net/images/v1599706239/shrewsburyacth/xvpshy9p6o5paopc2yi6/KeyStage2CurriculumGuide2020.pdf">KEY
+                                        STAGE 2</a>
+                                </div>
+                                <div class="col-md-12 icon-color" style="padding:10px 150px 30px">
+                                    <a
+                                        href="https://resources.finalsite.net/images/v1599706176/shrewsburyacth/opmsztvplq4sfc98ml3w/KeyStage3CurriculumGuide2020.pdf">KEY
+                                        STAGE 3</a>
+                                </div>
+                                <div class="col-md-12 icon-color" style="padding:10px 150px 30px">
+                                    <a
+                                        href="https://resources.finalsite.net/images/v1580804372/shrewsburyacth/jfabtjbqupn7dsokpshl/KeyStage4CurriculumGuide2020-22eBook.pdf">KEY
+                                        STAGE 4 GUIDE (IGCSE)</a>
+                                </div>
+                                <div class="col-md-12 icon-color" style="padding:10px 150px 30px">
+                                    <a
+                                        href="https://resources.finalsite.net/images/v1604038142/shrewsburyacth/klyllwq4groqnd410zlq/ALevelGuide2021-23web.pdf">KEY
+                                        STAGE 4 GUIDE (LEVEL)</a>
+                                </div>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>SHREWSBURY'S LEARNING JOURNEY</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:10px 150px 30px">
+                                <p>When children start at Shrewsbury they are placed in year groups based on their age
+                                    on 31st August. Progress between Year Groups is usually automatic, although students
+                                    may be out of their age group for exceptional reasons. Year Groups are clustered
+                                    into Key Stages and a defined curriculum is produced for each Key Stage. Throughout
+                                    each Key Stage there are ongoing assessments to monitor and track each child’s
+                                    academic progress.</p><br>
+                                <p>As students progress through the key stages, they build knowledge in a wide range of
+                                    academic subjects, including core English, Mathematics and Science disciplines, and
+                                    a variety of humanities and linguistic programmes, including some optional courses.
+                                    Traditional subjects are supplemented by a series of bespoke learning programmes,
+                                    created especially for Shrewsbury students that focus on their emotional and social
+                                    development, as well as academic skills.</p><br>
+                                <p>Age-appropriate learning styles and resources are adopted throughout the school, with
+                                    play-based learning in our youngest classrooms gradually progressing to more
+                                    independent learning styles and complex subject matter. This journey gives students
+                                    the opportunity to find their own academic strengths and interests in a variety of
+                                    subjects before moving on to the more focused academic content for their selected
+                                    IGCSE and A-level programmes, chosen by students with specific university and career
+                                    paths in mind.</p><br>
+                                <p>In Key Stage 4 (Years 10 and 11), students study a combination of subjects,
+                                    culminating in assessed examinations and the attainment of (International) General
+                                    Certificate of Secondary Education (IGCSE) qualifications. All students study a
+                                    compulsory core of Literacy, Numeracy and Science plus a number of optional
+                                    subjects. The IGCSE examinations are a formal assessment of a child’s ability in
+                                    each of the subjects they have studied. The route for students wishing to go to
+                                    university is to continue into Key Stage 5, also known as Sixth Form, to follow
+                                    two-year Advanced Level courses. GCSE and IGCSE are internationally recognised
+                                    academic standards and used, alongside Advanced Levels, as part of the academic
+                                    selection process for entry into the leading universities around the world.</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>BEYOND THE CURRICULUM</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:10px 150px 30px">
+                                <p>Alongside the demanding and rigorous academic subject content, the curriculum,
+                                    complimented by extensive co-curricular opportunities, also provides time for
+                                    students to develop and master a wide range of practical and social skills that lay
+                                    the foundations for long term success both at school and beyond. Students are
+                                    required to think critically and creatively. They take part in discussion and debate
+                                    and develop themselves as resilient problem solvers and innovators, with equal
+                                    capacity to collaborate and lead whilst always treating others with genuine empathy
+                                    and care.</p><br>
+                                <p>The Curriculum in combination with the co-curricular programme, encourages all
+                                    students to develop their own voice, both through what is taught and how it is
+                                    taught. Whether in discussing an idea, performing in a production, presenting a
+                                    research topic to a class, running a charity stall, leading a House activity or
+                                    delivering their academic fascination speech in assembly, students have numerous
+                                    opportunities to engage with the topics they are passionate about and work with
+                                    others to develop a mature understanding of the world around them.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="subjects" role="tabpanel" aria-labelledby="subjects-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <img src="images/crowd.png">
+                                <h1>SUBJECTS</h1>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>JUNIOR SCHOOL</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:10px 150px 30px">
+                                <p>In the Junior School at Riverside all core subjects are taught by the child’s class
+                                    teacher. Specialist lessons are taught by specialist subject teachers.</p>
+                                <br>
+                                <p>From Y1 to Y6, all children take part in the following timetabled lessons:</p>
+                                <br>
+                                <p>- English</p>
+                                <br>
+                                <p>- Maths</p>
+                                <br>
+                                <p>- Science</p>
+                                <br>
+                                <p>- Topic (which incorporates Drama and Humanities i.e. Geography, History)</p>
+                                <br>
+                                <p>- Physical Education (PE)</p>
+                                <br>
+                                <p>- Art & Design</p>
+                                <br>
+                                <p>- Design Technology (from Year 3 onwards)</p>
+                                <br>
+                                <p>- Music</p>
+                                <br>
+                                <p>- Thai Studies</p>
+                                <br>
+                                <p>- Modern Foreign Language (from Y3 upwards), one of: French, Japanese, Mandarin
+                                    Chinese, Spanish, English Plus: for children who have been identified as benefiting
+                                    from additional English Language support.</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>SENIOR SCHOOL</h3>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h5>CORE SUBJECTS</h5>
+                            </div>
+                            <div class="col-md-12" style="padding:10px 150px 30px">
+                                <p>The following subjects are offered to IGCSE level, and taken by all students up to
+                                    Y11:</p>
+                                <br>
+                                <p>- English: English Language, English Literature</p>
+                                <br>
+                                <p>- Mathematics (some students may also sit Further Mathematics IGCSE)</p>
+                                <br>
+                                <p>- Sciences: Biology, Chemistry, Physics, Some students may take coordinated science
+                                    instead of the individual sciences at GCSE</p>
+                                <br>
+                                <p>- Learning for Life (continued by all to Y11, but not examined at IGCSE)</p>
+                                <br>
+                                <p>- Physical Education (continued to Y11 for all, offered as IGCSE subject option in
+                                    Y10/Y11)</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h5>ADDITIONAL SUBJECTS:</h5>
+                            </div>
+                            <div class="col-md-12" style="padding:10px 150px 30px">
+                                <p>The following subjects are taken by all students up until the end of Y9, then
+                                    continued as possible subject options to IGCSE:</p>
+                                <br>
+                                <p>- Art & Design</p>
+                                <br>
+                                <p>- Business Studies (offered from Y10)</p>
+                                <br>
+                                <p>- Computing (in Y10 and Y11 Computer Science IGCSE)</p>
+                                <br>
+                                <p>- Design Technology</p>
+                                <br>
+                                <p>- Drama</p>
+                                <br>
+                                <p>- Economics (offered from Y10)</p>
+                                <br>
+                                <p>- Geography</p>
+                                <br>
+                                <p>- History</p>
+                                <br>
+                                <p>- Modern Foreign Languages (one of): French, Japanese, Mandarin Chinese, Spanish, EAL
+                                    students study "English Plus" instead of an MFL from Y7-9, and some students study
+                                    "Academic Literacy" instead of an MFL in Y10/11</p>
+                                <br>
+                                <p>- Music</p>
+                                <br>
+                                <p>- Psychology (offered as GCSE option from Y10)</p>
+                                <br>
+                                <p>- Religion, Philosophy and Ethics (offered as IGCSE option from Y10)</p>
+                                <br>
+                                <p>- Thai Studies (Thai Nationals are required to continue language component in Y10 &
+                                    Y11, where First Language is also offered as an IGCSE option )</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>SIXTH FORM</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:10px 150px 30px">
+                                <p>All subject options offered at IGCSE are also offered at A-level, except English
+                                    Language; Thai Studies; Religion, Philosophy & Ethics; and Learning for Life
+                                    (unexamined).</p>
+                                <br>
+                                <p>In addition, the following subjects form mandatory components of the Sixth Form
+                                    Programme:</p>
+                                <br>
+                                <p>- Reading the World</p>
+                                <br>
+                                <p>- Sixth Form Studies</p>
+                                <br>
+                                <p>- IELTS (for some students where English is not the First Language)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="assessment" role="tabpanel" aria-labelledby="assessment-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <img src="images/crowd.png">
+                                <h1>ASSESSMENT</h1>
+                            </div>
+                            <div class="col-md-12" style="padding:10px 150px 30px">
+                                <h5>The school employs a range of regular assessment and reporting measures, shared with
+                                    both students and parents via online systems, communication books, face-to-face
+                                    meetings and formal reports throughout the school.</h5>
+                                <br>
+                                <p>All of our assessment and reporting structures emphasise the key role that a child’s
+                                    attitude and approach plays in successful learning, highlighting the value of
+                                    personal skills and qualities such as resilience and cooperation, and driven by the
+                                    fundamental belief that all students have the potential to develop and improve.</p>
+                                <br>
+                                <p>In Years 3 to 9 we use a formal framework for assessing and reporting students’
+                                    academic progress, based on the standards set out in the English National
+                                    Curriculum. At the various formal reporting points through each year students are
+                                    graded as to whether they are working towards, meeting or exceeding the standards
+                                    expected for their particular age group. It is our goal that all students start
+                                    their public examination courses (in Year 10) with the right foundation to be able
+                                    to access the best grades possibleF</p>
+                                <br>
+                                <p>In an academic year when a student is scheduled to sit a public examination (GCSE or
+                                    A Level), their progress, current attainment and predicted attainment in a subject
+                                    is assessed against the examination criteria published by the exam boards. Most
+                                    commonly this comes as a letter grade scale e.g. A*, A, B, C etc.</p>
+                                <br>
+                                <p>In addition to the communications, formal assessments and reports by tutors, class
+                                    teachers and subject leaders, parents will have regular opportunities to see the
+                                    quality of their children’s work for themselves through blogs, exhibitions and
+                                    classroom displays; important celebrations of our students’ achievements that bring
+                                    our school to life.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="examresults" role="tabpanel" aria-labelledby="examresults-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <img src="images/crowd.png">
+                                <h1>EXAM RESULTS</h1>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>EXAM RESULTS & AWARDS</h3>
+                            </div>
+                            <div class="col-md-12" style="padding: 5px 150px 30px">
+                                <h5>Exceptional exam results underline the constant focus on Academic Excellence that is
+                                    a trademark of Shrewsbury International School. Our talented and dedicated teaching
+                                    staff set the highest standards for our selected pupils, providing them with the
+                                    support and encouragement they need to achieve their full potential in every subject
+                                    they choose to pursue here at Shrewsbury.</h5>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>RESULTS 2020</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:5px 150px 30px">
+                                <p>Making their contribution to an incredible history of examination success at
+                                    Shrewsbury International School, our GCSE, IGCSE and A-level students achieved
+                                    another set of outstanding results in 2020.</p>
+                                <br>
+                                <p>In another year of incredible achievements across the board, the highlights included:
+                                </p><br>
+                                <p>- A Level: 76% A*/A</p><br>
+                                <p>- A Level: > 1/2 students receive straight A*/A</p><br>
+                                <p>- GCSE: 74% A*/A</p><br>
+                                <p>- GCSE: 7+ A* grades for >1 in 3 students</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>A LEVEL RESULTS 2020</h3>
+                                <img src="images/result1.png" width="80%">
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>IGCSE RESULTS 2020</h3>
+                                <img src="images/result2.png" width="80%">
+                            </div>
+                            <div class="col-md-12" style="padding:0px 150px 30px">
+                                <p>These results are calculated from a combination of both the lettered and numbered
+                                    grading system employed for different GCSE examination subjects, whereby 8/9 is
+                                    equivalent to an A*, and 4 is equivalent to a C grade. </p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>CIE AND EDEXCEL EXAMINATION AWARDS</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:5px 150px 30px">
+                                <p>Within the school’s excellent overall results, there are always, of course, some
+                                    outstanding individual performances. Our pupils are a regular presence at the annual
+                                    Cambridge International Examinations Board awards, which are normally announced in
+                                    October or November, and are already feature prominently in the equivalent awards
+                                    list that has recently been introduced by the Pearson EdExcel examination board.
+                                    Quite simply, Shrewsbury is the most awarded school in Thailand.</p>
+                                <br>
+                                <p>Through the years, Shrewsbury students have earned numerous ‘Top in the World’ and
+                                    ‘Top in Thailand’ accolades for their scores in respective subjects, across both the
+                                    Arts and the Sciences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="support" role="tabpanel" aria-labelledby="support-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <img src="images/crowd.png">
+                                <h1>SUPPORT</h1>
+                            </div>
+                            <div class="col-md-12" style="padding: 5px 150px 30px">
+                                <h5>Shrewsbury is a selective school, and our careful admissions process is designed to
+                                    ensure that both families and the school understands the particular needs of the
+                                    children in our care, and that every student who joins our community will thrive
+                                    here. To support this, the school has a range of provisions in place to students’
+                                    learning and wellbeing.</h5>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>LEARNING SUPPORT</h3>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h5>WELLBEING TEAM</h5>
+                            </div>
+                            <div class="col-md-12" style="padding: 5px 150px 30px">
+                                <p>The school employs a specialist Wellbeing Team, who work in both the Junior and
+                                    Senior sections of the school.</p><br>
+                                <p>The role of the Wellbeing Team is to support children in overcoming barriers to
+                                    learning and to help these students reach their full potential. These barriers
+                                    may be caused by social, emotional or behavioural issues and the Wellbeing Team
+                                    will, based on their deep understanding of the student and the pressures they
+                                    face both within school and beyond, work with them to help establish a positive
+                                    and productive approach to their school life.</p><br>
+                                <p>Alongside teachers and tutors, the Wellbeing Team also provides an important
+                                    connection for families with the school, helping to advise Parents on how to
+                                    help their children achieve a happy and healthy work-life balance.</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h5>SPECIAL EDUCATIONAL NEEDS SUPPORT</h5>
+                            </div>
+                            <div class="col-md-12" style="padding: 5px 150px 30px">
+                                <p>In addition to the support provided by teachers, tutors and Wellbeing Team, the
+                                    School employs a dedicated team of learning support professionals, trained to
+                                    identify, assess and support students with special educational needs (SEN).The aim
+                                    of the learning support team is to ensure all children with special educational
+                                    needs are able to fully access the curriculum. In addition, it provides support for
+                                    children who need short term interventions to support academic progression.</p><br>
+                                <p>The School works in accordance with the 2015 SEN Code of Practice to adopt a
+                                    graduated response to a student’s individual needs. This approach recognises that
+                                    SEN are varied in nature and complexity, and, where necessary, we bring an
+                                    increasing range of strategies and specialist expertise into effect in order to
+                                    support and address the difficulties that a student may be experiencing.</p><br>
+                                <p>Even before a student arrives at Shrewsbury, our assessment and admissions procedures
+                                    seek to identify any special learning support that a student may need once they are
+                                    at the school. A process of continual monitoring and assessment of our current
+                                    students also seeks to identify any emerging issues that were not apparent at the
+                                    assessment stage, and to devise action plans and additional support measures as
+                                    appropriate.</p><br>
+                                <p>Our School employs a team of three full time Learning Support specialists, led by the
+                                    Director of Learning Support. Should another member of staff express any concern
+                                    about a child that may indicate the requirement for specialist assessment and
+                                    support, the matter will be referred directly to the SEN team.</p><br>
+                                <p>The team provide support (and oversee support provided by others) to students with a
+                                    variety of needs, including those students with:</p><br>
+                                <p>- Social, emotional and mental health difficulties</p><br>
+                                <p>- Physical difficulties including visual, hearing, gross and fine motor delay</p><br>
+                                <p>- Cognitive learning difficulties (such as Dyslexia and ADHD)</p><br>
+                                <p>- Communication and interaction difficulties </p><br>
+                                <p>- Expressive and receptive language and social communication disorders, including ASD
+                                    (Autism Spectrum Disorder)</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h5>SPECIFIC SEN PROVISION</h5>
+                            </div>
+                            <div class="col-md-12" style="padding: 5px 150px 30px">
+                                <p>Our specific provision for children with special educational needs is as follows:</p>
+                                <br>
+                                <p><strong>SPECIALIST STAFF:</strong></p><br>
+                                <p>- Director of Learning Support</p><br>
+                                <p>- Learning Support Teacher x 2 </p><br>
+                                <p><strong>SUPPORT MEASURES:</strong>></p><br>
+                                <p>- Internal standardised assessments for a range of learning barriers</p><br>
+                                <p>- Support available for students in EY1-Y13</p><br>
+                                <p>- Support with class teachers and TAs to develop strategies/resources to support
+                                    children both in and out of class</p><br>
+                                <p>- Regular meetings with parents to support learning at home </p><br>
+                                <p>- Some children have additional support provided by a member of the Learning Support
+                                    Team (free of charge)</p><br>
+                                <p>- Some children have 1:1 Learning Support Assistants to support learning in class (at
+                                    additional cost)</p><br>
+                                <p>- Individual Education Plans (IEPs) and Pupil Passports which are reviewed termly.
+                                </p><br>
+                                <p>- Work closely with Learning Mentors to support children with SEMH needs (Social,
+                                    Emotional and Mental Health)</p><br>
+                                <p>- Liaison with external providers for Speech and Language, Occupational Therapy and a
+                                    number of different educational and child psychologists (assessment and therapy fees
+                                    paid for by parents)</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>ENGLISH LANGUAGE SUPPORT</h3>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h5>WHAT WE DO</h5>
+                            </div>
+                            <div class="col-md-12" style="padding: 5px 150px 30px">
+                                <p>The EAL Department is comprised of a team of 11 highly qualified, experienced and
+                                    dedicated practitioners who work across the entire school from EY1 to Y13 to provide
+                                    specialist support for the development of English language.</p><br>
+                                <p>Proficiency in English is essential to a student’s academic attainment in the English
+                                    curriculum and public examinations, and to their success in the English language
+                                    universities to which the vast majority of students will progress. The remit of the
+                                    EAL Department is to improve significantly, noticeably and measurably the
+                                    acquisition of students' English language within the school, and to provide specific
+                                    and direct support to students whose current proficiency in English presents a
+                                    barrier to accessing and responding to our English-taught curriculum.</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h5>HOW WE DO IT</h5>
+                            </div>
+                            <div class="col-md-12" style="padding: 5px 150px 30px">
+                                <p>Our EAL specialists work predominantly within a sheltered immersion model, working
+                                    alongside class/subject teachers to provide direct support and to co-teach EAL
+                                    learners within their normal subject lessons, and also via timetabled English
+                                    Language lessons, called English Plus, attended in place of optional foreign
+                                    language subject lessons. The English Plus programme seeks to build on previous
+                                    knowledge and learning, reinforce the skills taught within the mainstream classroom
+                                    and further develop all of the four literacy skills (reading, writing, speaking and
+                                    listening).</p>
+                                <br>
+                                <p>Students are assessed upon entry to the school and at key points throughout the year
+                                    in order to determine the level of English language proficiency. Those identified as
+                                    needing specialist EAL support are placed on an EAL register, and remain there until
+                                    they reach a stage at which teachers feel they will be able to independently access
+                                    and respond meaningfully to the curriculum. At this stage they are able to leave the
+                                    specialist support of the English Plus programme (albeit with some ‘scaffolding’
+                                    still in place).</p><br>
+                                <p>In Key Stage 4, the Academic Literacy Programme (ALP) provides an important
+                                    linguistic and cognitive stepping stone for students wishing to progress through
+                                    their IGCSEs and enter Key Stage 5 (e.g., A-level). A variety of students from
+                                    within the school (including those who have English as a First Language) are
+                                    eligible to enrol on the ALP, and students who remain in English Plus at the end of
+                                    Year 9 are automatically enrolled into the ALP programme as they enter Year 10.</p>
+                                <br>
+                                <p>The ALP sharpens students’ overall academic literacy skills and focuses on developing
+                                    proficiency in critical thinking and discussion, textual analysis and public
+                                    speaking by exploring key global issues which are relevant to them. It is designed
+                                    as a backwards-planned model that seeks to thread through its units of work the most
+                                    important literacy skills of the IGCSE, and A-level curricula (including IELTS and
+                                    Reading the World). It also aims to help fully equip students with the life and
+                                    study skills that they will need when they leave the school and take their initial
+                                    steps in a university setting abroad.</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>SUPPORTING PARENTS</h3>
+                            </div>
+                            <div class="col-md-12" style="padding: 5px 150px 30px">
+                                <p>It is vitally important that parents are engaged in their children’s learning, and
+                                    that they have the guidance and information they need to ensure that the lifestyles,
+                                    activities and environment that children experience outside of school serve to
+                                    support the progress made within it.</p><br>
+                                <p>The school has a range of information programmes to help parents, including our
+                                    “Ready to Learn” programme, which provides targeted advice on the themes of
+                                    e-safety, healthy lifestyle and wellbeing. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="technology" role="tabpanel" aria-labelledby="technology-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <img src="images/crowd.png">
+                                <h1>TECHNOLOGY</h1>
+                            </div>
+                            <div class="col-md-12" style="padding: 5px 150px 30px">
+                                <h5>Shrewsbury International School is committed to ensuring that all students have the
+                                    necessary knowledge and skills to thrive in the modern 21st Century workplace. We
+                                    understand the importance of tomorrow's leaders needing to be comfortable, confident
+                                    and competent in highly technological environments. </h5>
+                            </div>
+                            <div class="col-md-12" style="padding:5px 150px 30px">
+                                <p>Instantaneous access to the world wide web and its vast compendium of information,
+                                    tools and multimedia resources is reshaping how we acquire knowledge and skills. We
+                                    are focussed on providing a set of skills in our students that goes beyond simply
+                                    finding and consuming information. How we collate, analyse, interpret and share this
+                                    new wealth of information is at the very heart of our school wide Digital Literacy
+                                    program. </p><br>
+                                <p>In a technology-rich environment, we have a responsibility to ensure that all our
+                                    students understand how to use these tools safely and responsibly. Our comprehensive
+                                    Digital Citizenship program starts from the first day they enter school. Through our
+                                    IT and Learning for Life curriculum, students are taught how to make sensible, safe
+                                    decisions on their use of technology. This responsibility extends beyond our
+                                    students to all members of the Shrewsbury community. Parent information sessions and
+                                    workshops relating to E-safety and the use of technology are held regularly to help
+                                    ensure that parents also feel empowered and informed.</p><br>
+                                <p>Between Year 5 and Year 9 all students study our Computer Science curriculum with the
+                                    opportunity to study the subject further at IGCSE and A Level, if they desire. It is
+                                    our intention that students will develop a fundamental understanding of how
+                                    computers work, as well as build their logic and problem solving skills through
+                                    learning a variety of computer programming languages.</p><br>
+                                <p>In order for our technology vision to be implemented effectively, we need to ensure
+                                    that our students have access to industry-level hardware and software throughout the
+                                    school. Our students have access to industry standard Mac technology suites in Art,
+                                    Music and Design Technology to support innovation and creativity. All students in
+                                    Senior School bring a laptop to school each day allowing us to replicate the working
+                                    tools and practices of the modern 21st century workplace in every one of our
+                                    classrooms. With over 600 iPads on the school site, supported by Apple TV and
+                                    Interactive Whiteboard installations in every Junior School classroom, we aim to
+                                    ensure that technology is portable and accessible at the exact time it is needed in
+                                    the learning process.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="library" role="tabpanel" aria-labelledby="library-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <img src="images/crowd.png">
+                                <h1>LIBRARY</h1>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>OVERVIEW</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:5px 150px 30px">
+                                <p><strong>Opening Times:</strong> 7:00am to 4:00pm, Monday to Friday (plus selected
+                                    Wednesdays during school holidays)</p><br>
+                                <p><strong>Visiting times for Parents and Carers:</strong> 7:00am-7:50am, and
+                                    2:20pm-4:00pm.</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>OUR RESOURCES</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:5px 150px 30px">
+                                <p>With Shrewsbury’s focus on scholarship and the English Language, and bridging the
+                                    space between the Junior and Senior School buildings, the library is both symbolic
+                                    and physical heart of our community.</p><br>
+                                <p>The library offers resources and programs designed to foster a lifelong love of books
+                                    and reading, and to help students develop critically important research and digital
+                                    literacy skills.</p><br>
+                                <p>With a collection of more than 30,000 books and periodicals, a robust selection of
+                                    online resources, and specialised e-book platforms for students in the Junior and
+                                    Senior Schools, the Library aims to meet the needs of all learners. Parents, Nannies
+                                    and Staff also have access to our collection of books and online resources. Check
+                                    out the Just for Parents page for tips and hints on using the library and helping
+                                    your child to read.</p><br>
+                                <p>We also have a low tech “makerspace”, where Junior School children can explore and
+                                    create with a variety of crafts. The Library staff design weekly challenges, which
+                                    students can complete at break or lunch. The space features a LEGO wall and offers
+                                    opportunities for students to tinker and explore.</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>HOW THE LIBRARY IS USED</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:5px 150px 30px">
+                                <p>All Junior School classes visit the library for at least one lesson every week,
+                                    utilizing the resources and reading spaces to conduct planned reading activities,
+                                    then to return and borrow books. Students in Years 3 to 6 may also use the library
+                                    independently both before and after school (under the supervision of a Parent or
+                                    Carer), and at break time and lunch time on their allocated days.</p><br>
+                                <p>In the Senior School, all students from Years 7-10 visit the library for at least one
+                                    lesson every 10 day cycle as part of the English curriculum. All Senior school
+                                    students have independent access to the library and its study areas, both before and
+                                    after school, at break and lunch times and during independent study periods.</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>OTHER LIBRARY SERVICES</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:5px 150px 30px">
+                                <p>For students in the Pre-Prep School, there are weekly story times in the library,
+                                    offered in both English and Thai. The Librarian also makes weekly visits to the
+                                    Early Years gardens to read stories with children in the Early Years programme. The
+                                    Librarian and Assistant Librarian also offer after school activities through
+                                    Shrewsbury’s “You-Time!” programme with a reading club called ChatterBooks where
+                                    children in Years 3 and 4 explore and discuss books on a set theme such as Funny
+                                    Stories, Fantasy or Animal Stories. Each session includes fun book related
+                                    activities.</p><br>
+                                <p>In the Senior School, the Librarian works closely with a number of departments to
+                                    encourage meaningful pleasure reading and to help students better understand the
+                                    research process. Students learn about the ethical use of sources, as well as where
+                                    and how to find information. The Librarian works with the English Department and
+                                    others to develop pleasure reading lists for Key Stage 3 and 4, as well as academic
+                                    reading lists for students in the Sixth Form.</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>ELECTRONIC RESOURCES</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:5px 150px 30px">
+                                <p>The Library subscribes to a number of electronic resources which can be accessed from
+                                    home. For the Pre-Prep School we have Tumblebooks which are animated stories
+                                    designed to help those learning to read. In year 6 and the Senior School we have
+                                    Overdrive a collection of ebooks. Parents can have their own account to access this
+                                    collection themselves. Please request an account by emailing the Librarian
+                                    stephanie.r@shrewsbury.ac.th</p><br>
+                                <p>To help with homework, assignments and independant discovery we have a wide variety
+                                    of online journals and databases for all ages all of which can be found via the
+                                    Library Blog. </p><br>
+                                <p>Not sure what to read next? Finished all the books in your favourite series? This
+                                    year we have added a brand new resource Who Next...? which will help you to find out
+                                    authors who write similar sort of stories to your favourite author.</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>SPECIAL EVENTS AND ACTIVITIES</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:5px 150px 30px">
+                                <p>The library also organizes a number of special events throughout the school year.
+                                    There are workshops for parents, workshops for nannies/helpers, book fairs, a family
+                                    reading challenge, and more. Recent author visits have included well-known
+                                    storyteller, David Bedford, and the British and European slam poetry champion, Sara
+                                    Hirsch.</p><br>
+                                <p>Shrewsbury is part of a network of school who organise The Bangkok Book Awards. This
+                                    takes place in the spring term and the winner is chosen by our students. Look out
+                                    for displays on the library blog and in the library. Read all the titles and vote
+                                    for your favourite.</p><br>
+                                <p>The highlight of the library calendar is Fully Booked week, a weeklong celebration of
+                                    reading, which features a house storytelling competition, a reading fair, costume
+                                    days, a book swap, a book cover competition, library contests, special storytimes,
+                                    and more.</p>
+                            </div>
+                            <div class="col-md-12 icon-color" style="padding:30px 150px 30px">
+                                <h3>AND FINALLY...</h3>
+                            </div>
+                            <div class="col-md-12" style="padding:5px 150px 30px">
+                                <p>We love to hear from you and welcome any suggestions or feedback. You can even
+                                    recommend a book for purchase here. </p><br>
+                                <p>To learn about events in the library, as well as new books and resources, please
+                                    follow the library on Pinterest, Instagram, or Twitter, or on the library blog for
+                                    all the latest news..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-5">
+        <div class="container d-flex justify-content-center">
+            <div class="text-secondary mr-2">&copy Copyright 2020</div>
+            <div>
+                <a href="https://www.facebook.com/SHBriverside/" class="mr-2">Facebook</a>
+                <a href="https://www.shrewsbury.ac.th/riverside/our-school/welcome" class="mr-2">About</a>
+                <a href="https://www.shrewsbury.ac.th/riverside/contact-us/contact-directory" class="mr-2">Contact
+                    Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
